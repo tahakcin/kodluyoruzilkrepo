@@ -1,0 +1,11 @@
+body {
+    background-color: #E9ECEF;
+}
+
+.card {
+    min-height: 475px;
+}
+
+.price {
+    max-width: 70px;
+}
