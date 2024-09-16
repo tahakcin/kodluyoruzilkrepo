@@ -8,12 +8,20 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/instagramclone/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Instagram</title>
+    <style>
+        .height-54 {
+            height: 54px;
+        }
+        .j-center {
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light border">
+    <nav class="navbar navbar-expand-sm navbar-light border sticky-top bg-white height-54">
         <div class="logo">
             <a class="navbar-brand" href="#"><img
                     src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" /></a>
@@ -22,7 +30,7 @@
                 <span class="navbar-toggler-icon mr-5"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse d-flex j-center ml-5">
             <form class="form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
                 <input class="form-control mr-sm-2 empty" type="search" placeholder="Ara"
                     style="font-family: Arial, FontAwesome; height: 28px; width: 216px" aria-label="Search" />
@@ -53,7 +61,7 @@
         </div>
     </nav>
 
-    <div class="container middlearea">
+    <div class="container middlearea p-3">
         <div class="row">
             <div class="col-6">
                 <div class="card">
